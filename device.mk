@@ -480,5 +480,8 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor \
     vendor.qti.hardware.display.config-V5-ndk
 
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
 # Inherit from proprietary targets
 $(call inherit-product, vendor/xiaomi/veux/veux-vendor.mk)
